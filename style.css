@@ -11,3 +11,32 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-child
 */
+
+.entry-title{
+	color:red;
+}
+
+*{
+	border-radius:5px;
+}
+
+body {
+	background-color: darkgray;
+}
+
+#masthead{
+	background-color:lightgray;
+}
+
+.entry-title {
+	transform:rotate(4deg);
+	background-color: gray;
+}
+
+section{
+		background-color: lightgray;
+}
+
+.entry-content{
+	background-color: lightgray;
+}
