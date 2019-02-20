@@ -14,7 +14,25 @@
 
 .entry-title{
 	color:red;
+} *{
+	animation-name:transformation;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-fill-mode:forwards;
+pointer-events:none;
 }
+
+@keyframes transformation{
+	from {
+		transform: scale(0.995);
+	}
+	50%{
+		transform:scale(1);
+	}
+	to{
+		transform: scale(0.995);
+	}
+} 
 
 *{
 	border-radius:5px;
