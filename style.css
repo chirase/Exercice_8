@@ -16,7 +16,7 @@
 	color:red;
 } *{
 	animation-name:transformation;
-	animation-duration:1s;
+	animation-duration:3s;
 	animation-iteration-count:infinite;
 	animation-fill-mode:forwards;
 pointer-events:none;
