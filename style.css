@@ -39,4 +39,11 @@ section{
 
 .entry-content{
 	background-color: lightgray;
+} *:hover{
+	box-shadow: 0px 10px 18px -7px rgba(0,0,0,0.3);
+}
+
+*{
+		box-shadow: 0px 10px 18px -7px rgba(0,0,0,0);
+	transition: box-shadow 1s;
 }
