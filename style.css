@@ -50,17 +50,22 @@ body {
   background-color: #ccc;
   color: #e21d6f; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .site-main {
     display: grid;
-    grid-template: 500px/ auto auto auto; }
+    grid-template: 30vw/ auto auto auto; }
 
   #main article {
     display: inline;
     border: 1px solid black; } }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1168px) {
   .site-main {
-    display: grid; } }
+    display: grid;
+    grid-template: 50vw/ auto auto auto; }
+
+  #main article {
+    display: inline;
+    border: 1px solid black; } }
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;

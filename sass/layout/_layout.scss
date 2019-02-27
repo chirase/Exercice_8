@@ -1,23 +1,27 @@
+@include media(mobile) {
 
+    .site-main {
+        display: grid;
+        grid-template: 30vw/ auto auto auto;
+    }
 
-  
-      @media only screen and (min-width: $query__mini)  {
-          .site-main{
-              display: grid;
-              grid-template: 500px/ auto auto auto;
-          }
-          
-          #main article{
-              display: inline;
-              border: 1px solid black;
-              
-          }
-      }
-  
-      @media only screen and (min-width: $query__small)   {
-          .site-main{
-              display: grid;
-          }
-      }
-  
-  
+    #main article {
+        display: inline;
+        border: 1px solid black;
+
+    }
+}
+
+@include media(desktop) {
+
+    .site-main {
+        display: grid;
+        grid-template: 50vw/ auto auto auto;
+    }
+
+    #main article {
+        display: inline;
+        border: 1px solid black;
+
+    }
+}
