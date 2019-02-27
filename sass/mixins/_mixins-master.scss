@@ -1,0 +1,6 @@
+@mixin bg-noir {
+    transition: background-color 1s;
+  &:hover{
+      background-color:black;
+  }
+}

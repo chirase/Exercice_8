@@ -1,0 +1,17 @@
+
+  
+      @media only screen and (min-width: $query__mini)  {
+          .site-main{
+              display: grid;
+              
+          }
+      }
+  
+      @media only screen and (min-width: $query__small)   {
+          .site-main{
+              display: grid;
+
+          }
+      }
+  
+  
