@@ -52,7 +52,12 @@ body {
 
 @media only screen and (min-width: 500px) {
   .site-main {
-    display: grid; } }
+    display: grid;
+    grid-template: 500px/ auto auto auto; }
+
+  #main article {
+    display: inline;
+    border: 1px solid black; } }
 @media only screen and (min-width: 600px) {
   .site-main {
     display: grid; } }
